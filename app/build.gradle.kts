@@ -2,16 +2,20 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+
+    id("com.google.gms.google-services")
+    id("com.google.devtools.ksp")
+    id("org.jetbrains.kotlin.plugin.serialization")
 }
 
 android {
     namespace = "app.mariia.mariia"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "app.mariia.mariia"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -56,4 +60,38 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Icons
+    implementation(libs.androidx.material.icons.extended)
+
+    // Koin
+    implementation(libs.koin.androidx.compose)
+
+    // Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+
+    // Firebase Auth
+    implementation(libs.firebase.auth)
+
+    // Play Services Auth
+    implementation(libs.play.services.auth)
+
+    // Google Auth
+    implementation(libs.googleid)
+
+    // Credential Manager
+    implementation(libs.androidx.credentials.play.services.auth)
+
+    // LiveData
+    implementation(libs.androidx.runtime.livedata)
+
+    // Splash
+    implementation(libs.androidx.core.splashscreen)
+
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+
+    // Serialization
+    implementation(libs.kotlinx.serialization.json)
 }

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "126082349019",
+    "project_id": "mariia-app",
+    "storage_bucket": "mariia-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126082349019:android:f33b9d2c0aafb5cf8e59fe",
+        "android_client_info": {
+          "package_name": "app.mariia.mariia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126082349019-fb98lrq4620igla66obc2gduo66ngmop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mariia.mariia",
+            "certificate_hash": "5052705504d103fa224b4a890c62fa330e50c7ee"
+          }
+        },
+        {
+          "client_id": "126082349019-k1fmm4ocmh0c8onlepmjihmt1tef3hlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANiYUAgsAl1Mv4e8TMPL8-aYFSO1U8iwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126082349019-k1fmm4ocmh0c8onlepmjihmt1tef3hlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
