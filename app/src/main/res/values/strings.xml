@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">mariia</string>
+    <string name="app_name">mariia.みんな</string>
+
+    <string name="greeting">Are you ready to be .persona?</string>
+    <string name="something_went_wrong">Something went wrong >></string>
+
+    <string name="or">or</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+
+    <string name="email">Email</string>
+    <string name="email_on_error">Email*</string>
+    <string name="email_error">Email doesn\'t exist</string>
+
+    <string name="password">Password</string>
+    <string name="password_on_error">Password*</string>
+
+    <string name="password_is_short_error">At least 6 symbols</string>
+    <string name="password_is_long_error">At most 32 symbols</string>
+    <string name="password_math_error">Password doesn\'t match</string>
 </resources>
