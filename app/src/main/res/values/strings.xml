@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">mariia.みんな</string>
 
-    <string name="greeting">Are you ready to be .persona?</string>
+    <string name="greeting">Let\'s get journey started:</string>
     <string name="something_went_wrong">Something went wrong >></string>
 
     <string name="or">or</string>
